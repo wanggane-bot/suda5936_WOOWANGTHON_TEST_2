@@ -1,6 +1,17 @@
 {
-  "name": "wanggane-memo",
-  "private": true,
-  "engines": { "node": "22" },
-  "scripts": { "start": "node server.js" }
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run build:theme"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }

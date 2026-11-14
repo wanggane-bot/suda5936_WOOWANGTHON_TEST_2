@@ -1,8 +1,9 @@
-FROM node:22-alpine
+FROM node:18
+
 WORKDIR /app
-COPY package.json server.js ./
-COPY public ./public
-RUNN node -e "console.log('build ok')"
-EXPOSE 3000
-USER node
+
+COPY package.json ./
+RUN npm install
+
+COPY . .
 CMD ["node", "server.js"]

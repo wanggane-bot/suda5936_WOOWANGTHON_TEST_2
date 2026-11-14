@@ -1,7 +1,1 @@
-{
-  "name": "wanggane-memo",
-  "private": true,
-  "engines": { "node": "22" },
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "@wanggane/memo-ui": "^1.0.0" }
-}
+{"name": "wanggane-memo", "private": true, "engines": { "node": "22" }, "dependencies": { "@wanggane/memo-ui": "^1.0.0" }, "scripts": { "start": "node server.js" }, "type": "module"}
